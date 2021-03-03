@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.13.0/css/all.css ">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap " rel="stylesheet ">
+</head>
+
+<body>
+    <div class="container ">
+        <!-- start section Navigation -->
+        <div class="navbar ">
+            <div class="logo ">
+                <a href="index.html">
+                    <img src="./image/main-logo.png " alt=" " width="100px ">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="account.html">Account</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="shop">
+                <a href="cart.html">
+                    <img src="./image/cart.png " alt=" " width="30px " height="30px ">
+                </a>
+                <img src="./image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+        </div>
+        <!-- End section Navigation -->
+
+    </div>
+
+
+
+
+
+
+    <!-- Start Section Product -->
+    <div class="small-container ">
+        <div class="row row-2 ">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4 ">
+                <img src="./image/pro1-nike-3695.png " alt=" ">
+                <h4>Cacvaliers SweaShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+
+
+            <div class="col-4 ">
+                <img src="./image/pro2-Polo Ralph Lauren-12990.png" alt=" ">
+                <h4>Polo Ralph Laruen</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro3-allen solly - 2369.png " alt=" ">
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.2369</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro4-h&m-1499.png " alt=" ">
+                <h4>H&M SweaShirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4 ">
+                <img src="./image/pro5-calvinK-4199.png" alt=" ">
+                <h4>Cacvaliers SweaShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+
+
+            <div class="col-4 ">
+                <img src="./image/pro6-SELECTED-11499.png" alt=" ">
+                <h4>Polo Ralph Laruen</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro7-anubhutte-988.png " alt=" ">
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.2369</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro8-biba-3039.png" alt=" ">
+                <h4>H&M SweaShirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-4 ">
+                <img src="./image/pro9-dorothy perkins-1245.png " alt=" ">
+                <h4>Cacvaliers SweaShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+
+
+            <div class="col-4 ">
+                <img src="./image/pro10-bobbi brown-5600.png" alt=" ">
+                <h4>Polo Ralph Laruen</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro11-AccessHer-39500.png" alt=" ">
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.2369</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro12-fossil-14296.png " alt=" ">
+                <h4>H&M SweaShirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-4 ">
+                <img src="./image/pro13-lacoste-2550.png " alt=" ">
+                <h4>Cacvaliers SweaShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+
+
+            <div class="col-4 ">
+                <img src="./image/pro14-The Light Lamp-21360.png" alt=" ">
+                <h4>Polo Ralph Laruen</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro15-harmon kardon-14990.png " alt=" ">
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.2369</p>
+            </div>
+
+
+
+            <div class="col-4 ">
+                <img src="./image/pro16-steve madden - 8999.png " alt=" ">
+                <h4>H&M SweaShirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+
+        </div>
+    </div>
+    <!-- End Section Product -->
+
+
+
+
+
+
+
+    <!-- Start Section Footer -->
+    <div class="small-container">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App</h3>
+                        <p>Download App for Andriod and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="image/play-store.png" alt="">
+                            <img src="image/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="image/main-logo.png" alt="">
+                        <p>Our purpose is to give the best quality product to the customer and bring them back and make them happy.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy; 2021 - www.narimani.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Section Footer -->
+
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
